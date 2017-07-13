@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <android.support.design.widget.CoordinatorLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/repo"
+            android:layout_width="match_parent"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:text="RepoName"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/language"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="language"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forks"
+            android:gravity="center_vertical"
+            android:text="forks"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/link"
+            android:layout_gravity="bottom|center"
+            android:layout_marginRight="20dp"
+            android:text="link"/>
+    </android.support.design.widget.CoordinatorLayout>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:background="#fff"
+        android:layout_height="10dp" />
+</android.support.design.widget.CoordinatorLayout>
